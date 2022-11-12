@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,25 +21,32 @@
                 <img src="img/icon/eye.png" alt="">
             </div>
             <div class="nav_tele">
-                <span>+375 (44) 755-01-01</span>
-                <img src="img/icon/a1.png" alt="A1">
-                <img src="img/icon/phone.png" alt="P">
-                <img src="img/icon/watsapp.png" alt="h">
-                <span>+375 (29) 550-01-01</span>
-                <img src="img/icon/egg.png" alt="0">
+                <span id="nav_tele_item1">+375 (44) 755-01-01</span >
+                <img src="img/icon/a1.png" alt="A1" id="nav_tele_item3">
+                <img src="img/icon/phone.png" alt="P" id="nav_tele_item4">
+                <img src="img/icon/watsapp.png" alt="h" id="nav_tele_item5">
+                <span id="nav_tele_item2">+375 (29) 550-01-01</span>
+                <img src="img/icon/egg.png" alt="0" id="nav_tele_item6">
             </div>
             <div class="nav_content">
                 <div class="logo_img">
                     <img src="img/logo/Logo.png" alt="">
                 </div>
-                <nav>
-                    <a href="#">Главная</a>
-                    <a href="#">О нас</a>
-                    <a href="#">Услуги</a>
-                    <a href="#">Тарифы</a>
-                    <a href="#">Инфоцентр</a>
-                    <a href="#">Контакты</a>
-                    <a href="#"><img src="img/icon/search.png" alt=""></a>
+                <nav class="navbar">
+                    <div class="divBar"> 
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <li>
+                        <a href="#">Главная</a>
+                        <a href="#">О нас</a>
+                        <a href="#">Услуги</a>
+                        <a href="#">Тарифы</a>
+                        <a href="#">Инфоцентр</a>
+                        <a href="#">Контакты</a>
+                        <a href="#"><img src="img/icon/search.png" alt=""></a>
+                    </li>
                 </nav>
             </div>
         </div>
@@ -315,8 +323,7 @@
                     </div>
                     <div class="box-3 box-flex">
                         <div>
-                            <h5>Разработка уставных документов и внесение
-                            изменений в них</h5>
+                            <h5>Разработка уставных документов</h5>
                             <a href="" class="a-button">Подробнее</a>
                         </div>
                         <div>
@@ -562,5 +569,6 @@
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/burger.js"></script>
 </body>
 </html>
